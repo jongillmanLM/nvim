@@ -18,5 +18,4 @@ vim.opt.scrolloff = 10
 
 vim.cmd [[set mouse=a]]
 
-vim.cmd [[nnoremap <SPACE> <Nop>]]
 vim.g.mapleader = " "
