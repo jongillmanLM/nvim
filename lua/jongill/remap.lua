@@ -13,4 +13,9 @@ tnoremap("<leader><Esc>", "<C-\\><C-n>")                -- exit terminal
 
 nnoremap("<leader>ff", "<cmd>Telescope find_files<CR>")     -- Telescope find files
 
-nnoremap("<leader>n", "<cmd>bn<CR>")                        -- Next buffer
+nnoremap("<leader>n", "<cmd>bn<CR>")                        -- Next buffer in buffer list
+nnoremap("<leader>p", "<cmd>bp<CR>")                        -- Previous buffer in buffer list
+nnoremap("<A-b>", "<cmd>e #<CR>")                           -- Switch to last loaded buffer
+
+nnoremap("<A-h>", "<C-w>h")                                 -- Switch to window on left
+nnoremap("<A-l>", "<C-w>l")                                 -- Switch to window on right
