@@ -9,7 +9,7 @@ nnoremap("<leader>ex", "<cmd>Ex<CR>")                   -- mapped for exiting to
 nnoremap("<leader>P", "\"+p")                           -- paste from clipboard
 vnoremap("<leader>op", "\"+y")                          -- copy to clipboard
 
-tnoremap("<leader><Esc>", "<C-\\><C-n>")                -- exit terminal
+tnoremap("<A-q>", "<C-\\><C-n>")                        -- exit terminal
 
 nnoremap("<leader>ff", "<cmd>Telescope find_files<CR>")     -- Telescope find files
 
