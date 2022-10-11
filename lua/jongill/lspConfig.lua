@@ -45,5 +45,5 @@ require('lspconfig')['clangd'].setup{
     flags = lsp_flags,
 }
 
-
+require'lspconfig'.gopls.setup{}
 

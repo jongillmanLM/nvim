@@ -14,7 +14,10 @@ return require('packer').startup(function(use)
     -- or                            , branch = '0.1.x',
       requires = { {'nvim-lua/plenary.nvim'} , {'nvim-treesitter/nvim-treesitter'},  {'BurntSushi/ripgrep'}
   }
+
 }
+
+  use 'ThePrimeagen/vim-be-good'
 end)
 
 
