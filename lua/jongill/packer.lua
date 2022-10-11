@@ -4,20 +4,21 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
-  use 'morhetz/gruvbox'
-  -- use {'neoclide/coc.nvim', branch = 'release'}
-  use 'neovim/nvim-lspconfig'
-  use {
-      'nvim-telescope/telescope.nvim', tag = '0.1.0',
-    -- or                            , branch = '0.1.x',
-      requires = { {'nvim-lua/plenary.nvim'} , {'nvim-treesitter/nvim-treesitter'},  {'BurntSushi/ripgrep'}
-  }
+    -- Packer can manage itself
+    use 'wbthomason/packer.nvim'
+    use 'morhetz/gruvbox'
+    -- use {'neoclide/coc.nvim', branch = 'release'}
+    use 'neovim/nvim-lspconfig'
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        -- or                            , branch = '0.1.x',
+        requires = { {'nvim-lua/plenary.nvim'} , {'nvim-treesitter/nvim-treesitter'},  {'BurntSushi/ripgrep'}
+        }
 
-}
+    }
 
-  use 'ThePrimeagen/vim-be-good'
+    use 'ThePrimeagen/vim-be-good'
+
 end)
 
 
